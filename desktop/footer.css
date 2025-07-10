@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'myntra';
+    font-weight: normal;
+    src: url('/assets/fonts/Assistant-Regular.woff')
+}
+@font-face{
+    font-family: 'myntra';
+    font-weight: 700;
+    src: url('/assets/fonts/Assistant-Bold.woff')
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'myntra';
+}
+.footer-wrapper{
+    position: relative;
+}
+.footer-inner{
+    position: relative;
+    z-index: 5;
+    padding:30px 0 40px 0px;
+    background: #FAFBFC;
+}
+.desktop-footer{
+    max-width:1080px;
+    margin:auto;
+    min-width: 980px;
+    display: block;
+}
+.footer-footer{
+    padding:20px 0 60px;
+    color:#535766;
+    width:100%;
+    text-align: justify;
+}
+.footer-right{
+    font-size: 12px;
+    float: right;
+    padding-left: 30px;
+    max-width: 380px;
+}
+.footer-right-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color:#696b79;
+    font-size: 16px;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+.footer-right-table{
+    margin-top: 40px;
+    border-collapse: collapse;
+    box-sizing: content-box;
+}
+.footer-right-table .table-content,
+.footer-right-table .table-head{
+    padding: 8px;
+    text-align: left;
+} 
+.date-last-update{
+    font-style: italic;
+    padding:10px 0 0 6px;
+    font-weight: 700;
+    box-sizing: content-box;
+}
+.buy-men-tshirt{
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#696b79;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    box-sizing: content-box;
+}
+.footer-left{
+    font-size: 14px;
+    line-height: 1.5;
+    margin:20px 0;
+    color:#7e818c;
+    width: 61%;
+    box-sizing: content-box;
+}
+.para-header{
+    margin-top: 0;
+    color:#696b79;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.para-link{
+    text-decoration: none;
+    font-weight: 700;
+    color:#7e818c;
+}
