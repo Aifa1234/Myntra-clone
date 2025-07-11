@@ -118,8 +118,9 @@ section{
 }
 .vertical-filter{
     padding-bottom: 15px;
-    padding-left: 25px;
+    padding-left: 22px;
     border-bottom: 1px solid #e9e9ed;
+    transform: translate(3px);
 }
 .header-title{
     font-weight: 700;
@@ -146,6 +147,11 @@ section{
     padding-left: 0;
     list-style: none;
 }
+/* .category-name{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: -6px;
+} */
 .search-left-container li{
     font-size: 14px;
     margin-bottom: 7px;
@@ -175,8 +181,8 @@ section{
     position: absolute;
     top:0;
     left:0;
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
     border:1px solid #c3c2c9;
     background-color: #fff;
     border-radius: 2px;
@@ -243,10 +249,14 @@ section{
     margin:0;
     padding-left: 0;
     list-style: none;
+    margin-top: 2px;
 }
 .brand-list li{
     font-size: 14px;
     margin-bottom: 7px;
+}
+.brand-name{
+    margin-left: -3px;
 }
 .brand-num{
     color:#94969f;
@@ -449,4 +459,10 @@ section{
     text-align: center;
     font-size: 14px;
     box-sizing: border-box;
+}
+.percent-and-above{
+    margin-left: -3px;
+}
+.color-text{
+    margin-left: -3px;
 }

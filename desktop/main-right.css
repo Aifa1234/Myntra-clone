@@ -107,6 +107,7 @@
     display: inline-block;
     box-sizing: content-box;
     font-size: 14px;
+    transform: translateY(-1px);
 }
 .left-filter-down-arrow{
     vertical-align: middle;
@@ -118,6 +119,7 @@
     background-position: -2679px -89px;
     width:15px;
     height: 15px;
+    transform: translateY(-1px);
 }
 .product-display{
     display: flex;
