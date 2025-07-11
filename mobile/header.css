@@ -47,7 +47,8 @@
   font-weight: 700;
   line-height: normal;
   text-transform: capitalize;
-  width: calc(100%-260px);
+  width: calc(100% - 260px);
+  overflow: hidden;
 }
 .header-head-inner{
     font-weight: 700;

@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'myntra';
+    font-weight: normal;
+    src: url('/assets/fonts/Assistant-Regular.woff')
+}
+@font-face{
+    font-family: 'myntra';
+    font-weight: 700;
+    src: url('/assets/fonts/Assistant-Bold.woff')
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'myntra';
+}
+.mobile-main{
+    padding-top:56px;
+}
