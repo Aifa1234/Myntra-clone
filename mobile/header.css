@@ -1,0 +1,84 @@
+@font-face{
+    font-family: 'myntra';
+    font-weight: normal;
+    src: url('/assets/fonts/Assistant-Regular.woff')
+}
+@font-face{
+    font-family: 'myntra';
+    font-weight: 700;
+    src: url('/assets/fonts/Assistant-Bold.woff')
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'myntra';
+}
+
+.mobile-header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow:0 1px 2px 0 rgba(148,150,159,.3) ;
+}
+.header-back-icon{
+    display: inline-block;
+}
+.back-icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 24px;
+    height: 24px;
+    margin: 16px;
+}
+.myntra-icon{
+  margin:16px 16px 16px 0;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  vertical-align: top;
+}
+.header-head{
+  top:11px;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: top;
+  position: relative;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  width: calc(100%-260px);
+}
+.header-head-inner{
+    font-weight: 700;
+}
+.header-sub-head{
+    font-size: 12px;
+    font-weight: 400;
+}
+.header-icon-list{
+    float:right;
+    display: inline-block;
+}
+.header-icon-plus{
+    display: inline-block;
+    position: relative;
+    top:1px;
+    vertical-align: top;
+    height: 22px;
+    width:24px;
+    margin:17px 16px 16px 0;
+}
+.header-icon-search{
+    width:24px;
+    height: 24px;
+    margin:16px 16px 16px 0;
+    display: inline-block;
+}
+.header-icon-wishlist,
+.header-icon-bag{
+    display: inline-block;
+    width:24px;
+    height: 24px;
+    margin: 16px 16px 16px 0;
+}

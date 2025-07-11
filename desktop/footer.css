@@ -90,9 +90,251 @@
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
+    margin-bottom: 14px;
+    box-sizing: content-box;
+}
+.para-one,
+.para-two,
+.para-three,
+.side-head,.para-four,.para-five,.para-six,.para-seven,
+.para-eight,.para-nine,.para-ten,.para-eleven,.para-twelve,
+.para-thirteen,.para-fourteen
+{
+    margin: 14px 0;
+}
+.para-empty{
+    margin-bottom: 14px;
 }
 .para-link{
     text-decoration: none;
     font-weight: 700;
     color:#7e818c;
+}
+/* .footer-list{
+    
+} */
+ .footer-list-header{
+    margin-bottom: -10px;
+    margin-top:30px;
+ }
+li::marker{
+  text-align: start;
+  text-align-last: auto;  
+}
+.footer-list strong{
+    color:#696b79;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+.footer-list-header{
+    margin-top: 30px;
+   margin-bottom: -10px;
+}
+.empty-empty{
+    margin: 14px 0;
+}
+.footer-para-one{
+    margin-bottom: 14px;
+}
+.item-two .footer-para-one{
+    margin: 0;
+}
+.item-three .footer-para-one{
+    margin:0;
+}
+.best-seller-head{
+  margin-bottom: -10px;
+  margin-top: 30px;
+  color:#696b79;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+.footer-para-alpha{
+    margin:14px 0;
+}
+.video-container{
+    width: 560px;
+    height: 315px;
+    background-color: rgb(155, 23,34);
+}
+.footer-video h3{
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+/* .video-description{
+
+} */
+.footer-video-para{
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+.footer-general{
+    margin-bottom: 24px;
+    box-sizing: content-box;
+}
+.footer-general::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.shop-link{
+    float:left;
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.footer-general-head{
+    margin:12px 0;
+    font-size: 12px;
+    font-weight: 700;
+    color:#282c3f
+}
+.footer-general a{
+    color:#696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    line-height: normal;
+    cursor: pointer;
+}
+.footer-general-item{
+     padding-top: 14px;
+}
+.customer-link{
+    width:15%;
+    float: left;
+}
+.icon-link{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    width: 360px;
+    font-size: 15px;
+    line-height: 19px;
+    float: left;
+    padding-top: 13px;
+}
+.icon-link-head{
+  font-weight: 700;
+  color:#282c3f;
+  margin: -3px 0 0;
+  padding:0 0 25px;
+  font-size: 12px;  
+}
+.icon-container{
+    display: inline-block;
+}
+.icon-link .playstore-link,
+.icon-link .appstore-link{
+    display: inline;
+}
+.playstore-link img,
+.appstore-link img{
+height: 42px;
+margin-right: 10px;
+}
+.keep-in-touch-head{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.icon-link .icon-icon{
+    display: inline-block;
+    margin: 0 15px 0 0;
+    width: 20px;
+    height: 21px;
+    box-sizing: content-box;
+}
+.icon-icon img{
+    width:20px;
+    height: 20px;
+}
+.myntra-policy{
+    width:250px;
+    float:left;
+}
+.myntra-original{
+    margin: 15px 0 30px;
+    color:#696b79
+}
+.original-image{
+    display: inline-block;
+    float: left;
+    margin-left: -10px;
+    margin-right: 10px;
+    width: 47.5px;
+    height: 40px;
+}
+.original-image img{
+    width:48px;
+    height: 40px;
+}
+.myntra-origianl-text strong{
+    color:#282c3f;
+    font-weight: 700;
+}
+.popular-search hr{
+  border:1px;
+  height: 1px;
+  background-color: #eaeaec;
+  /* box-sizing: content-box; */
+}
+.popular-title{
+    position: absolute;
+    margin-top: -15px;
+    background: #fafbfc;
+    padding-right: 10px;
+    color:#282c3f;
+    font-size: 12px;
+    font-weight: 700;
+    /* box-sizing: content-box; */
+}
+.search-link{
+    margin-top: 30px;
+}
+.link-one{
+    text-decoration: none;
+    color:#696b79;
+    font-size: 15px;
+    line-height: 25px;
+}
+.link-one::after{
+    content: " | ";
+    margin-left: 3px;
+}
+.copy-right{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.copy-right-contact{
+    flex:1;
+    color:#696b79;
+}
+.contact-us-text{
+    text-decoration: none;
+    font-weight: 700;
+    color:#526cd0;
+}
+.copy-right-copy{
+    box-sizing: content-box;
+    flex:1;
+    color:#94969f;
+    margin-left: 100px;
+}
+.flipkart-link{
+    flex:1;
+    text-align: end;
+}
+.flip-link{
+    color:#94969f;
+    text-decoration: none;
 }
