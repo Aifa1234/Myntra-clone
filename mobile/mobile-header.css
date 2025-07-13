@@ -16,6 +16,7 @@
 }
 
 .mobile-header{
+    z-index: 100;
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -45,10 +46,13 @@
   vertical-align: top;
   position: relative;
   font-weight: 700;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   line-height: normal;
   text-transform: capitalize;
-  width: calc(100% - 260px);
+  width:calc(100% - 260px);
   overflow: hidden;
+  
 }
 .header-head-inner{
     font-weight: 700;
@@ -58,10 +62,15 @@
     font-weight: 400;
 }
 .header-icon-list{
+    display: flex;
+    align-items: center;
     float:right;
-    display: inline-block;
+    display: block;
+    white-space: nowrap;
+    box-sizing: content-box;
 }
 .header-icon-plus{
+    white-space: nowrap;
     display: inline-block;
     position: relative;
     top:1px;
@@ -69,17 +78,25 @@
     height: 22px;
     width:24px;
     margin:17px 16px 16px 0;
+    font-size: 13px;
+    line-height: 1.428557143;
 }
 .header-icon-search{
+    white-space: nowrap;
     width:24px;
     height: 24px;
     margin:16px 16px 16px 0;
     display: inline-block;
+     font-size: 13px;
+    line-height: 1.428557143;
 }
 .header-icon-wishlist,
 .header-icon-bag{
+    white-space: nowrap;
     display: inline-block;
     width:24px;
     height: 24px;
     margin: 16px 16px 16px 0;
+     font-size: 13px;
+    line-height: 1.428557143;
 }
