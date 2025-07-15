@@ -1,0 +1,301 @@
+@font-face{
+    font-family: 'myntra';
+    font-weight: normal;
+    src: url('/assets/fonts/Assistant-Regular.woff')
+}
+@font-face{
+    font-family: 'myntra';
+    font-weight: 700;
+    src: url('/assets/fonts/Assistant-Bold.woff')
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'myntra';
+}
+.mobile-main{
+    padding-top:56px;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+.display-page-content{
+    min-height: calc(100vh - 50px);
+}
+.bottom-filter{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    border-top:1px solid #eaeaec;
+    /* z-index: 10; */
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.column-one{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.button-container{
+    position: relative;
+    overflow: hidden;
+}
+.button-inner{
+    width: 100%;
+    height: 50px;
+    padding:14px 0 14px 28px;
+    letter-spacing: .9px;
+    color:#535766;
+    border-color: transparent;
+    background-color: #fff;
+}
+.sort-icon{
+    top:16px;
+    left:11%;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+.column-seperator{
+    border-left: 1px solid #eaeaec;
+    width: 1px;
+    height: 22px;
+    z-index: 1;
+}
+.column-two{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+}
+.filter-icon{
+   top:16px;
+   left: 67.2%;
+   width: 16px;
+   height: 16px;
+   position: absolute; 
+}
+.bottom-filter::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.bottom-text{
+    font-size: 14px;
+    font-weight: 700;
+}
+.banner{
+   padding:16px 8px;
+   display: table; 
+   background-image: linear-gradient(90deg,#bd6da6,#d799cb);
+   width: 100%;
+   table-layout: fixed;
+}
+.banner-content{
+    font-size: 14px;
+    display: table-cell;
+    color:#fff;
+    text-align: center;
+    line-height: 1.42857143;
+}
+.banner-bold-text{
+    font-weight: 700;
+    line-height: 1.42857143;
+}
+.mobile-card-list{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+.mobile-card-item-odd{
+ clear: left;
+ border-right: .5px solid #d4d5d9;
+ border-top: .5px solid #d4d5d9;
+ border-bottom: .5px solid #d4d5d9;
+ float: left;
+ width: 50%;
+ margin: 0;
+ overflow: hidden;
+}
+.image-container{
+    position: relative;
+    text-align: center;
+}
+.image-inner{
+    position: relative;
+    overflow: hidden;
+}
+.mobile-image{
+    height: 255px;
+    background:rgb(244, 255, 249) ;
+    width: auto;
+    position: relative;
+}
+.mobile-image img{
+    display: block;
+    width: 100%;
+
+    /* max-height: 100%; */
+    height: 255px;
+    /* object-fit: contain; */
+    object-position: top;
+    object-fit: cover;
+}
+.rating-container{
+    position: absolute;
+    height: 18px;
+    margin: -28px 0 0 11px;
+    border:1px solid #eaeaec;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    padding:2px 5px;
+    width: auto;
+}
+.rating-text{
+    font-size: 10px;
+    font-weight: 700;
+}
+.mobile-star-icon{
+    font-size: 9px;
+    padding:3px;
+    background-image: url(https://constant.myntassets.com/pwa/assets/img/2bce8a2b-e1d5-465a-8980-62f3d778377c1548353615799-Fill-90-Copy-7.png);
+    background-size: cover;
+    position: relative;
+    margin: 0 6px 0 4px;
+}
+.star-seperator{
+    color:rgb(148, 150, 159);  
+}
+.rating-count{
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.picture-content{
+    position: relative;
+}
+.picture-text{
+    padding: 8px 0;
+    font-size: 12px;
+}
+.product-title{
+    padding-left: 8px;
+    font-weight: 700;
+    line-height: 1.57;
+    text-align: left;
+    font-size: 13px;
+    width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product-detail{
+    opacity: .6;
+    padding-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+    color:#282c3f;
+    height: 12px;
+    margin-top: -1px; 
+}
+.price-container{
+    margin-top: -1px;
+    padding-left: 6px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.rupee-symbol{
+    position: relative;
+    top:4px;
+}
+.price-value{
+    position: relative;
+    left: -2px;
+    color:#282c3f;
+    font-weight: 700;
+    font-size: 13px;
+}
+.cut-price{
+    font-size: 13px;
+    opacity: .4;
+    color:#282c3f;
+    text-decoration: line-through;
+}
+.real-price{
+    position: relative;
+    left: -2px;
+}
+.discount-percent{
+    color:#ff905a;
+    font-weight: 700;
+    font-size: 11px;
+    white-space: nowrap;
+}
+.offer-container{
+    text-align: left;
+    padding-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.best-price{
+    color:rgb(3, 166, 133);
+    font-weight: 700;
+}
+.other{
+    color:#686b77;
+}
+.text-empty{
+    color:#ff5722;
+    font-size: 12px;
+    font-weight: 700;
+    min-height: 17px;
+    text-align: left;
+    margin-left: 8px;
+}
+.wishlist-product-container{
+    color:#282c3f;
+    display: inline-block;
+    position: absolute;
+    bottom:43px;
+    right: 0;
+    top:2px;
+    padding-top: 4px;
+    padding-left: 15px;
+    height: 38px;
+}
+.mobile-card-item-even{
+    border-top: 1px solid #d4d5d9;
+    border-bottom: .5px solid #d4d5d9;
+    float: left;
+    width: 50%;
+    margin: 0;
+    overflow: hidden;
+}
+.product-watermark{
+    position: absolute;
+    background-color: #a9abb3;
+    border-radius: 2px;
+    top:8px;
+    right:10px;
+    padding:0 2px;
+    font-size: 10px;
+    color:#fff;
+
+}

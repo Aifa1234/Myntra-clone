@@ -183,8 +183,8 @@ sup{
     float: right;
     position: relative;
     line-height: 0;
-
 }
+
 .desktop-search-bar{
     display: inline-block;
     float: left;
@@ -201,6 +201,7 @@ sup{
     background: #f5f5f6;
     width: 95%;
     border: 1px solid #f5f6f6;
+    padding-left: 9px;
 }
 .desktop-submit{
     box-sizing: content-box;
@@ -227,4 +228,17 @@ sup{
     background-size: 1404px 105px;
     background-position: -754px 0;
     box-sizing: content-box;
+    
+}
+.mobile-view{
+    display: none;
+}
+@media  screen and (max-width:768px) {
+    .mobile-view{
+    display: block;
+}
+.desktop-view{
+    display:none
+}
+    
 }
