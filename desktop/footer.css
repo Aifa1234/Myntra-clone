@@ -21,7 +21,8 @@
     position: relative;
     z-index: 5;
     padding:30px 0 40px 0px;
-    background: #FAFBFC;
+    /* background: #FAFBFC; */
+    background-color:yellow;
 }
 .desktop-footer{
     max-width:1080px;
@@ -34,12 +35,13 @@
     color:#535766;
     width:100%;
     text-align: justify;
+    /* margin-top: 1px; */
 }
 .footer-right{
     font-size: 12px;
     float: right;
     padding-left: 30px;
-    max-width: 380px;
+    max-width: 410px;
 }
 .footer-right-title{
     text-transform: uppercase;
@@ -49,16 +51,20 @@
     font-size: 16px;
     margin-bottom: -10px;
     margin-top: 30px;
+    /* margin-left: -29px; */
 }
 .footer-right-table{
     margin-top: 40px;
+    /* margin-left: -30px; */
     border-collapse: collapse;
     box-sizing: content-box;
-}
-.footer-right-table .table-content,
-.footer-right-table .table-head{
+    margin-right: 3px;
+ }
+.footer-right-table th,
+.footer-right-table td{
     padding: 8px;
     text-align: left;
+    /* line-height: 1.45; */
 } 
 .date-last-update{
     font-style: italic;
@@ -75,6 +81,7 @@
     margin-top: 30px;
     margin-bottom: -10px;
     box-sizing: content-box;
+    /* margin-left: -30px; */
 }
 .footer-left{
     font-size: 14px;
@@ -150,6 +157,11 @@ li::marker{
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
+  margin-top: 42px;
+}
+.best-seller-head-two{
+    margin:14px 0;
+    height: 21px;
 }
 .footer-para-alpha{
     margin:14px 0;
@@ -163,16 +175,18 @@ li::marker{
     margin-top: 30px;
     margin-bottom: -10px;
 }
-/* .video-description{
-
-} */
+.video-description{
+ margin-top: 4px;
+} 
 .footer-video-para{
     margin-top: 5px;
     margin-bottom: 14px;
 }
 .footer-general{
+    /* margin-top: 1px ; */
     margin-bottom: 24px;
     box-sizing: content-box;
+    /* transform: translateY(-.5px); */
 }
 .footer-general::after {
   content: "";
@@ -185,6 +199,7 @@ li::marker{
     display: inline-block;
     vertical-align: top;
     padding-right: 20px;
+    box-sizing: content-box;
 }
 .footer-general-head{
     margin:12px 0;
@@ -200,6 +215,7 @@ li::marker{
     padding-bottom: 5px;
     line-height: normal;
     cursor: pointer;
+    box-sizing: content-box;
 }
 .footer-general-item{
      padding-top: 14px;
@@ -217,6 +233,7 @@ li::marker{
     line-height: 19px;
     float: left;
     padding-top: 13px;
+    box-sizing: content-box;
 }
 .icon-link-head{
   font-weight: 700;
@@ -224,9 +241,11 @@ li::marker{
   margin: -3px 0 0;
   padding:0 0 25px;
   font-size: 12px;  
+  box-sizing: content-box;
 }
 .icon-container{
     display: inline-block;
+    box-sizing: content-box;
 }
 .icon-link .playstore-link,
 .icon-link .appstore-link{
@@ -236,23 +255,49 @@ li::marker{
 .appstore-link img{
 height: 42px;
 margin-right: 10px;
+box-sizing: content-box;
+}
+.appstore-link{
+    margin-left: -2.3px;
 }
 .keep-in-touch-head{
     font-size: 12px;
     margin-bottom: 10px;
     font-weight: 700;
     margin-top: 20px;
+    box-sizing: content-box;
 }
 .icon-link .icon-icon{
     display: inline-block;
-    margin: 0 15px 0 0;
-    width: 20px;
-    height: 21px;
-    box-sizing: content-box;
+    margin: 0 12px 0 0;
+    /* width: 20px; */
+    /* height: 21px;  */
+    /* box-sizing: content-box; */
+     padding-bottom: 0; 
+     box-sizing: content-box;
 }
-.icon-icon img{
+/* .facebook{
+    height: 21px;
+    line-height: 19px;
+} 
+.twitter{
+    height: 24.6px;
+} */
+.facebook img,
+.twitter img{
     width:20px;
     height: 20px;
+}
+.youtube img{
+  width:28px;
+  height: 20px;
+}
+.instagram img{
+    width: 20px;
+    height: 22px;
+    position: relative;
+    /* top:1; */
+    /* bottom: -1; */
 }
 .myntra-policy{
     width:250px;
@@ -278,6 +323,10 @@ margin-right: 10px;
     color:#282c3f;
     font-weight: 700;
 }
+.myntra-return img{
+   height: 49px;
+   width: 48px; 
+}
 .popular-search hr{
   border:1px;
   height: 1px;
@@ -286,7 +335,7 @@ margin-right: 10px;
 }
 .popular-title{
     position: absolute;
-    margin-top: -15px;
+    margin-top: -6px;
     background: #fafbfc;
     padding-right: 10px;
     color:#282c3f;
@@ -306,6 +355,9 @@ margin-right: 10px;
 .link-one::after{
     content: " | ";
     margin-left: 3px;
+}
+.link-one:last-child::after{
+    content: "";
 }
 .copy-right{
     display: flex;
@@ -337,4 +389,7 @@ margin-right: 10px;
 .flip-link{
     color:#94969f;
     text-decoration: none;
+}
+.para-header{
+    height: 21px;
 }

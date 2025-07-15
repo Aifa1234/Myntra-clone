@@ -18,6 +18,7 @@
     min-height: 750px;
     margin-top:-2px;
     box-sizing: content-box;
+    padding-bottom: 50px;
 }
 .search-base{
     margin:81px auto 0;
@@ -117,10 +118,11 @@ section{
     padding-top: 23px;
 }
 .vertical-filter{
-    padding-bottom: 15px;
-    padding-left: 22px;
+  
+    padding-bottom: 14px;
+    padding-left: 25px;
     border-bottom: 1px solid #e9e9ed;
-    transform: translate(3px);
+    transform: translateY(-1px);
 }
 .header-title{
     font-weight: 700;

@@ -74,6 +74,8 @@
     text-align: center;
     margin-right: 64px;
     padding:10px 22px;
+    color:#282c3f;
+    opacity: .6;
 }
 .single-arrow{
     margin-right: 8px;
@@ -93,6 +95,7 @@
     margin-top:6px;
     margin-right: 10px;
     font-weight: 400;
+    padding: 6px 8px;
 }
 .page-next{
     height: 42px;
