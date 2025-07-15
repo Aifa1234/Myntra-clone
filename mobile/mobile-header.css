@@ -15,31 +15,31 @@
     font-family: 'myntra';
 }
 
-.mobile-header{
+.mobile-view .mobile-header{
     z-index: 100;
     background-color: #fff;
     position: fixed;
     width: 100%;
     box-shadow:0 1px 2px 0 rgba(148,150,159,.3) ;
 }
-.header-back-icon{
+.mobile-view .header-back-icon{
     display: inline-block;
 }
-.back-icon{
+.mobile-view .back-icon{
     display: inline-block;
     vertical-align: top;
     width: 24px;
     height: 24px;
     margin: 16px;
 }
-.myntra-icon{
+.mobile-view .myntra-icon{
   margin:16px 16px 16px 0;
   height: 24px;
   width: 24px;
   display: inline-block;
   vertical-align: top;
 }
-.header-head{
+.mobile-view .header-head{
   top:11px;
   display: inline-block;
   font-size: 16px;
@@ -54,14 +54,14 @@
   overflow: hidden;
   
 }
-.header-head-inner{
+.mobile-view .header-head-inner{
     font-weight: 700;
 }
-.header-sub-head{
+.mobile-view .header-sub-head{
     font-size: 12px;
     font-weight: 400;
 }
-.header-icon-list{
+.mobile-view .header-icon-list{
     display: flex;
     align-items: center;
     float:right;
@@ -69,7 +69,7 @@
     white-space: nowrap;
     box-sizing: content-box;
 }
-.header-icon-plus{
+.mobile-view .header-icon-plus{
     white-space: nowrap;
     display: inline-block;
     position: relative;
@@ -81,7 +81,7 @@
     font-size: 13px;
     line-height: 1.428557143;
 }
-.header-icon-search{
+.mobile-view .header-icon-search{
     white-space: nowrap;
     width:24px;
     height: 24px;
@@ -90,8 +90,8 @@
      font-size: 13px;
     line-height: 1.428557143;
 }
-.header-icon-wishlist,
-.header-icon-bag{
+.mobile-view .header-icon-wishlist,
+.mobile-view .header-icon-bag{
     white-space: nowrap;
     display: inline-block;
     width:24px;
