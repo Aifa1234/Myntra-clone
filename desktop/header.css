@@ -228,4 +228,17 @@ sup{
     background-size: 1404px 105px;
     background-position: -754px 0;
     box-sizing: content-box;
+    
+}
+.mobile-view{
+    display: none;
+}
+@media  screen and (max-width:768px) {
+    .mobile-view{
+    display: block;
+}
+.desktop-view{
+    display:none
+}
+    
 }
